@@ -28,6 +28,14 @@ namespace fizzBuzz.Library.Tests
             string output = fizzBuzzer.GetValue(input);
             Assert.AreEqual("Fizz", output);
         }
-    }
 
+        [Test]
+        public void When10_ReturnsBuzz()
+        {
+            int input = 10;
+            string output = fizzBuzzer.GetValue(input);
+            Assert.AreEqual("Buzz", output);
+        }
+
+    }
 }

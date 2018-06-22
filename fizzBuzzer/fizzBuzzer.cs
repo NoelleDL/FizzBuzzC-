@@ -14,6 +14,10 @@ namespace fizzBuzz.Library
             {
                 return "Fizz";
             }
+            else if (input % 5 == 0)
+            {
+                return "Buzz";
+            }
             else 
             {
                 string output = input.ToString();
